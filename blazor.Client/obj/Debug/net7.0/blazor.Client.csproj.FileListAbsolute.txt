@@ -818,7 +818,6 @@ C:\Users\Lenevo\Desktop\blazor\blazor.Client\obj\Debug\net7.0\staticwebassets.pa
 C:\Users\Lenevo\Desktop\blazor\blazor.Client\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Lenevo\Desktop\blazor\blazor.Client\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\Lenevo\Desktop\blazor\blazor.Client\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\Lenevo\Desktop\blazor\blazor.Client\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\Lenevo\Desktop\blazor\blazor.Client\obj\Debug\net7.0\scopedcss\bundle\blazor.Client.styles.css
 C:\Users\Lenevo\Desktop\blazor\blazor.Client\obj\Debug\net7.0\scopedcss\projectbundle\blazor.Client.bundle.scp.css
 C:\Users\Lenevo\Desktop\blazor\blazor.Client\obj\Debug\net7.0\blazor.Client.csproj.CopyComplete

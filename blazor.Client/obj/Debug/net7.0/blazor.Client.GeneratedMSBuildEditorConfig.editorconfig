@@ -20,12 +20,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenevo/Desktop/blazor/blazor.Client/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[C:/Users/Lenevo/Desktop/blazor/blazor.Client/Pages/EditStocks.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFN0b2Nrcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenevo/Desktop/blazor/blazor.Client/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/Lenevo/Desktop/blazor/blazor.Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenevo/Desktop/blazor/blazor.Client/_Imports.razor]
@@ -35,7 +35,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Lenevo/Desktop/blazor/blazor.Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-hlzdee6qkc
-
-[C:/Users/Lenevo/Desktop/blazor/blazor.Client/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-mf56mxqa38

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4abCvqagLcD5kuQ1w2fDP2omg7PQByXxD4437HXkTlo=",
+  "Hash": "NJfKgoZUyNsQaTGCBe3S5miaM4bRl8JbxIG/anjxJSY=",
   "Source": "blazor.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -7155,23 +7155,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\Lenevo\\Desktop\\blazor\\blazor.Client\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "blazor.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenevo\\Desktop\\blazor\\blazor.Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }

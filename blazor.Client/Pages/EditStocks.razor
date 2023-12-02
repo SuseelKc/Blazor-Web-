@@ -1,0 +1,64 @@
+﻿@page "/ipo"
+@using Models
+@inject NavigationManager NavigationManager
+
+<PageTitle>New IPO</PageTitle>
+<h1>Listing IPO</h1>
+<h3>New IPO</h3>
+
+<div class="row">
+    <div class="col-4">
+        <EditForm Model="@stock" OnSubmit="HandleSubmit">
+            <div class="mb-3">
+                <label for="companyname" class="form-label">Name:</label>
+                <InputText id="companyname" @bind-Value="stock.CompanyName" class="form-control"></InputText>
+            </div>
+
+            <div class="mb-3">
+                <label for="sector" class="form-label">Sector:</label>
+                <InputText id="sector" @bind-Value="stock.Sector" class="form-control"></InputText>
+            </div>
+
+            <div class="mb-3">
+                <label for="publicIssue" class="form-label">Public Issue Shares:</label>
+                <InputNumber id="publicIssue" @bind-Value="stock.PublicIssueShares" class="form-control"></InputNumber>
+            </div>
+
+            <div class="mb-3">
+                <label for="rate" class="form-label">Rate:</label>
+                <InputNumber id="rate" @bind-Value="stock.Rate" class="form-control"></InputNumber>
+            </div>
+
+            <div class="mb-3">
+                <label for="openDate" class="form-label">Open Date:</label>
+                <InputDate id="openDate" @bind-Value="stock.OpenDate" class="form-control"></InputDate>
+            </div>
+
+            <div class="mb-3">
+                <label for="closeDate" class="form-label">Close Date:</label>
+                <InputDate id="closeDate" @bind-Value="stock.CloseDate" class="form-control"></InputDate>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    private Stocks stock = new()
+        {
+            CompanyName = string.Empty,
+            Sector = string.Empty,
+
+            OpenDate = DateTime.UtcNow,
+            CloseDate = DateTime.UtcNow
+        };
+
+
+    private void HandleSubmit()
+    {
+        stockClient.AddStocks(stock);
+        NavigationManager.NavigateTo("/");
+
+    }
+}
