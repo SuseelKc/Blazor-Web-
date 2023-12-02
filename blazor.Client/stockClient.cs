@@ -71,7 +71,8 @@ public static class stockClient
     // add elements method
     public static void AddStocks(Stocks stock)
     {
+        stock.ID = stocks.Max(stock => stock.ID) + 1;
         stocks.Add(stock);
-        
+
     }
 }

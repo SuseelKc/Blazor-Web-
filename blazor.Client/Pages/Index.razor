@@ -1,9 +1,16 @@
 ﻿@page "/"
 @using Models
+@inject NavigationManager NavigationManager
 
-<PageTitle>Nepse New IPOs</PageTitle>
+<PageTitle>Nepse IPOs</PageTitle>
 
 <h1>Upcoming IPOs</h1>
+
+<div class="row mb-4">
+    <div class="col-sm-6">
+        <button type="button" class="btn btn-primary" @onclick="CreateIpo">New IPO</button>
+    </div>
+</div>
 
 @if (stocks is null)
 {
@@ -48,6 +55,12 @@ else
     protected override void OnInitialized()
     {
         stocks = stockClient.GetStocks();
+    }
+
+    //add new ipo function
+    private void CreateIpo()
+    {
+        NavigationManager.NavigateTo("/ipo");
     }
 
 }
