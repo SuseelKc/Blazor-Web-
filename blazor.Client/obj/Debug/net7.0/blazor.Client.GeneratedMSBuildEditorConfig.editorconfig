@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Lenevo/Desktop/blazor/blazor.Client/Pages/DeleteStock.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlU3RvY2sucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lenevo/Desktop/blazor/blazor.Client/Pages/EditStocks.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFN0b2Nrcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

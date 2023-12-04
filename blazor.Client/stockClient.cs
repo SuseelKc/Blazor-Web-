@@ -10,7 +10,7 @@ public static class stockClient
 
             ID= 1,
             CompanyName ="Hathway Investment Nepal Ltd.",
-            Sector = "Investment",
+            Sector = "Investments",
             PublicIssueShares= 2925000,
             Rate= 50,
             OpenDate=new DateTime(2023,9,10),
@@ -51,6 +51,7 @@ public static class stockClient
 
             },
             new Stocks(){
+
             ID= 5,
             CompanyName ="Uttam Steels",
             Sector = "Manufacturing",
@@ -61,18 +62,34 @@ public static class stockClient
 
             }
             };
-
+    // Method to get an array of Stocks
     public static Stocks[] GetStocks()
     {
-
         return stocks.ToArray();
     }
-
-    // add elements method
+    // add elements method to the list
     public static void AddStocks(Stocks stock)
     {
         stock.ID = stocks.Max(stock => stock.ID) + 1;
         stocks.Add(stock);
-
     }
+    public static Stocks GetStock(int id)
+    {
+        return stocks.Find(stock => stock.ID == id) ?? throw new Exception("Could not find game");
+    }
+    public static void UpdateStock(Stocks updatedStock)
+    {
+        Stocks existingStock = GetStock(updatedStock.ID);
+        existingStock.CompanyName = updatedStock.CompanyName;
+        existingStock.Sector = updatedStock.Sector;
+        existingStock.PublicIssueShares = updatedStock.PublicIssueShares;
+        existingStock.Rate = updatedStock.Rate;
+        existingStock.OpenDate = updatedStock.OpenDate;
+        existingStock.CloseDate = updatedStock.CloseDate;
+    }
+
+    public static void Delete(int id){
+        Stocks stock = GetStock(id);
+        stocks.Remove(stock);
+    } 
 }
