@@ -67,16 +67,16 @@ else
 
 @code {
     [Parameter]
-    public int? id { get; set; }
+    public int? ID { get; set; }
     private Stocks? stock;
 
     private string title = string.Empty;
 
     protected override void OnParametersSet()
     {
-        if (id is not null)
+        if (ID is not null)
         {
-            Stocks foundStock = stockClient.GetStock(id.Value);
+            Stocks foundStock = stockClient.GetStock(ID.Value);
             stock = new()
                 {
                     ID = foundStock.ID,

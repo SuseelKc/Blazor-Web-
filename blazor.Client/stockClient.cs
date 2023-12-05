@@ -87,9 +87,9 @@ public static class stockClient
         existingStock.OpenDate = updatedStock.OpenDate;
         existingStock.CloseDate = updatedStock.CloseDate;
     }
-
-    public static void Delete(int id){
+    public static void Delete(int id)
+    {
         Stocks stock = GetStock(id);
         stocks.Remove(stock);
-    } 
+    }
 }

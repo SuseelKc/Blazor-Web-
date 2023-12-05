@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = blazor.Client
+build_property.RootNamespace = blazor.Client
+build_property.ProjectDir = C:\Users\Lenevo\Desktop\blazor\blazor.Client\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Lenevo\Desktop\blazor\blazor.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Lenevo/Desktop/blazor/blazor.Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenevo/Desktop/blazor/blazor.Client/Pages/DeleteStock.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlU3RvY2sucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenevo/Desktop/blazor/blazor.Client/Pages/EditStocks.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFN0b2Nrcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenevo/Desktop/blazor/blazor.Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenevo/Desktop/blazor/blazor.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenevo/Desktop/blazor/blazor.Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hlzdee6qkc

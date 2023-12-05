@@ -1,8 +1,6 @@
 ﻿@using Models
 <h3>DeleteStock</h3>
 
-
-
 <!-- Modal -->
 <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -24,10 +22,12 @@
 </div>
 
 
+
 @code {
     [Parameter]
     public Stocks? stock { get; set; }
 
+    [Parameter]
     public EventCallback<bool> OnClose { get; set; }
 
     private string title = string.Empty;
