@@ -23,10 +23,11 @@ This project is a web application built with Blazor that manages information abo
 
 ### 4. Delete Existing IPOs
 
-- Users can delete an upcoming IPO by clicking on the "Delete" button next to the respectiv
+- Users can delete an upcoming IPO by clicking on the "Delete" button next to the respective IPO record.
+- A confirmation modal ensures that users confirm their intention to delete before the operation is executed.
 
 
 Screenshot
 ![addproduct](https://github.com/SuseelKc/IPO_Annoucement_System/assets/139630872/3a2b100a-8226-4bee-a82b-82c492cdcf6b)
-s
+
 ![Screenshot 2023-12-05 162940](https://github.com/SuseelKc/IPO_Annoucement_System/assets/139630872/cc37268b-cbff-44d8-988c-9e523855d9e6)
