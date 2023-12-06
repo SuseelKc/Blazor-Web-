@@ -70,7 +70,7 @@ public static class stockClient
     // add elements method to the list
     public static void AddStocks(Stocks stock)
     {
-        stock.ID = stocks.Max(stock => stock.ID) + 1;
+        stock.ID = stocks.Any() ? stocks.Max(stock => stock.ID) + 1 : 1;
         stocks.Add(stock);
     }
     public static Stocks GetStock(int id)
